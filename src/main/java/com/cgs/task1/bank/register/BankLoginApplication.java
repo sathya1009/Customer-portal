@@ -12,6 +12,7 @@ public class BankLoginApplication {
 	 
 	public static void main(String[] args) {
 		SpringApplication.run(BankLoginApplication.class, args);
+		//nithish
 
 	}
 
