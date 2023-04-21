@@ -1,0 +1,94 @@
+/* Style the page */
+body {
+    background: url(../images/Chise-header-draft-2-scaled.jpg)no-repeat center center fixed; /* Set a light gray background color */
+    font-family: Arial, sans-serif; /* Use Arial or a sans-serif font */
+  }
+  
+  /* Style the heading */
+  h1 {
+    text-align: center; /* Center the heading */
+    margin-top: 50px; /* Add some top margin */
+    color: white;
+  }
+  
+  /* Style the form */
+  .form1 {
+    
+  
+    
+    width: 400px; /* Set a width for the form */
+    margin: 50px auto; /* Center the form horizontally and add some top margin */
+     background-color: wheat; /* Set a white background color */
+    padding: 40px; /* Add some padding for readability */
+    border-radius: 25px; /* Make the corners round */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  }
+  
+  /* Style the input fields */
+  input[type="text"],
+  input[type="password"],
+  input[type="date"],
+  input[type="email"] {
+    outline: none;
+    border-radius: 25px; /* Make the corners round */
+    border: 2px solid orange; /* Add an orange border */
+    padding: 10px; /* Add some padding for readability */
+    display: block; /* Display the input fields as block elements */
+    margin-bottom: 10px;
+    width: 100%; /* Set the width to 100% to take up the entire container */
+    margin-bottom: 20px; /* Add some spacing between the input fields */
+  }
+  
+  .name-container {
+    display: flex;
+  }
+    
+  #firstname,
+  #lastname {
+    display: inline-table;
+    width: 100%;
+    margin-right: 0;
+  }
+  
+  /* Arrange the "dob" and "mobile" input fields next to each other */
+  .date-container {
+    display: flex;
+  }
+  
+  #date,
+  #mobile {
+    width: 100%;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: orange; /* Set an orange background color */
+    color: #fff; /* Set a white text color */
+    padding: 10px; /* Add some padding for readability */
+    border: none; /* Remove the border */
+    border-radius: 25px; /* Make the corners round */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    width: 100%; /* Set the width to 100% to take up the entire container */
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  /* Style the container */
+  .container {
+    text-align: center; /* Center the container text */
+    margin-top: 20px; /* Add some top margin */
+  }
+  
+  /* Style the link */
+  .container a {
+    color: orange; /* Set an orange text color */
+    text-decoration: none; /* Remove the underline */
+  }
+  
+  /* Style the message */
+.message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  color: red;
+}	
+  

@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-right: 30px;
+    background-image: url(../images/Chise-header-draft-2-scaled.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  header {
+    background-color: whitesmoke;
+  }
+  
+  h1, p {
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  button {
+    border: none;
+    padding: 10px 30px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: white;
+  }
+  
+  button[type="button"]:nth-of-type(1) {
+    background-color: red;
+    margin-right: 10px;
+  }
+  
+  button[type="button"]:nth-of-type(2) {
+    background-color: orange;
+  }
+  
+  .para {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }

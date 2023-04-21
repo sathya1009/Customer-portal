@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-style: normal;
+  overflow: hidden;
+}
+
+header-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c04000;
+  color: white;  
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.complaint-button {
+  background-color: #c04000;
+  color: whitesmoke;
+  border: none;
+  padding: 9px;
+  font-size: 13px;
+  outline: none; 
+  cursor: pointer;
+}
+
+.logout-button{
+  background-color: #c04000;
+  color: whitesmoke;
+  border: none;
+  padding: 9px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+.complaint-form-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  bottom: 420px;
+  font-size: 25px;
+}
+
+h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  background-color: #e32636;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button[type="submit"]:hover {
+  color: black;
+}
+
+.logout-button:hover {
+  background-color: #ccc;
+}
+.v:hover {
+  background-color: #ccc;
+}

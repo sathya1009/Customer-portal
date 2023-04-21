@@ -1,0 +1,96 @@
+/* Style the page */
+body {
+  font-family: Arial, sans-serif; /* Use Arial or a sans-serif font */
+   background: url(../images/Chise-header-draft-2-scaled.jpg)no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Style the heading */
+h1 {
+  text-align: center; /* Center the heading */
+  margin-top: 50px; /* Add some top margin */
+  color: whitesmoke;
+}
+
+/* Style the form */
+.form1 {
+  width: 400px; /* Set a width for the form */
+  margin: 50px auto; /* Center the form horizontally and add some top margin */
+  background-color: wheat; /* Set a white background color */
+  padding: 40px; /* Add some padding for readability */
+  border-radius: 25px; /* Make the corners round */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="password"] {
+  color: orange;
+  outline: none;
+  border-radius: 25px; /* Make the corners round */
+  border: 2px solid orange; /* Add an orange border */
+  padding: 10px; /* Add some padding for readability */
+  display: block; /* Display the input fields as block elements */
+  margin-bottom: 10px;
+  width: 100%; /* Set the width to 100% to take up the entire container */
+  margin-bottom: 20px; /* Add some spacing between the input fields */
+}
+
+/* Style the error message */
+#error-message {
+  margin: 10px auto;
+  text-align: center;
+}
+
+#error-message h2 {
+margin-bottom: 10px;
+  font-size: 16px;
+  color: red;
+}
+
+#error-message p {
+  font-size: 12px;
+  color: orange;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: orange; /* Set an orange background color */
+  color: #fff; /* Set the text color to white */
+  border: none; /* Remove the border */
+  padding: 10px 186px; /* Add some padding for readability */
+  border-radius: 25px; /* Make the corners round */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  transition: background-color 0.3s ease; /* Add a smooth transition */
+}
+
+/* Change the submit button color on hover */
+input[type="submit"]:hover {
+  background-color: #ff8c00;
+}
+
+/* Style the container that holds the Forgot Password and Register links */
+.container {
+  margin-top: 10px; /* Increase the top margin to move the text down */
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the links */
+.container a:first-of-type {
+  font-size: 13px; /* or any desired font size */
+  color: blue; /* Change the color of the links to blue */
+}
+
+.container a:last-of-type {
+  color: blue; /* Change the color of the links to blue */
+  margin-top: 10px; /* Add some top margin */
+}
+
+.container p{
+  padding-top: 10px;
+}
+
+  
